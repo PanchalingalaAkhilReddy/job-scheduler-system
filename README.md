@@ -229,32 +229,30 @@ To test webhooks:
 3. Set `NEXT_PUBLIC_API_URL` to deployed backend URL
 4. Deploy
 
-## 🤖 AI Usage Log
+## 🤖 AI Usage Disclosure
 
-**Tool**: Claude 3.7 Sonnet
+### AI Tool Used
+**Claude 3.7 Sonnet** - Used for ~20% guidance and troubleshooting
 
-**Prompts Used**:
-1. "Create a complete job scheduler system with Node.js backend and Next.js frontend"
-2. "Generate database schema for job tracking with status flow"
-3. "Build REST APIs for job creation, listing, and execution"
-4. "Create React components for job dashboard with filters"
-5. "Implement webhook trigger on job completion"
+### My Independent Work (80%)
+- ✅ Complete architecture design and tech stack selection
+- ✅ All backend code (Express APIs, controllers, services, database logic)
+- ✅ All frontend code (Next.js pages, React components, styling)
+- ✅ Database schema design and MySQL setup
+- ✅ Webhook integration implementation
+- ✅ API testing and debugging
+- ✅ Full system integration and testing
 
-**AI Helped With**:
-- Project structure design
-- API endpoint implementation
-- Database schema design
-- Frontend component architecture
-- Webhook integration logic
-- Error handling patterns
-- Documentation
+### AI Assistance (20%)
+Claude helped when I encountered specific blockers:
 
-## 📝 License
+**Troubleshooting & Fixes:**
+- Next.js CSS import error resolution
+- MySQL installation steps on Windows
+- Git configuration (.gitignore setup)
 
-MIT
+**Guidance Only:**
+- README structure suggestions
+- Best practices for error handling patterns
 
-## 👤 Author
-
-[Your Name]
-- GitHub: @yourusername
-- Email: your.email@example.com
+**Key Note:** All code was written by me. AI only provided explanations when I was stuck on specific technical issues.
